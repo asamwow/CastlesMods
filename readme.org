@@ -1,0 +1,44 @@
+#+title: Config
+#+author: Samuel Jahnke
+
+This repo contains all the data that is used to play [[https://castles.life]["Castles"]] video game.
+
+* Modding
+
+TODO: Video
+
+Note: You will need a dev build of the "Castles" video game.
+
+Interested in the project? Join [[https://discord.gg/xZp8p3qgwD][the discord]].
+
+* The Files
+
+The mod files use the following format. There is no delimitation between
+elements of the collections.
+
+| Line # | Name            |
+|--------+-----------------|
+|      1 |                 |
+|      2 |                 |
+|      3 |                 |
+|      4 | Structures      |
+|      5 | Humanoids       |
+|      6 | Descriptions    |
+|      7 | Terrain Brushes |
+|      8 | Animations      |
+|      9 | Dialouges       |
+|     10 | Rolls           |
+|     11 | Lists           |
+|     12 | Items           |
+|     13 | Player Reqs     |
+|     14 | Connections     |
+|     15 |                 |
+|     16 | Hotbar          |
+|     17 |                 |
+|     18 | Trees           |
+|     19 | Fishing Spots   |
+|     20 | Fires           |
+|     21 | Chests          |
+|     22 |                 |
+|     23 | Teleports       |
+|     24 | Item Givers     |
