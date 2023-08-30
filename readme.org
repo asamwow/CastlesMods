@@ -1,4 +1,4 @@
-#+title: Config
+#+title: Castles: Data files
 #+author: Samuel Jahnke
 
 This repo contains all the data that is used to play [[https://castles.life]["Castles"]] video game.
@@ -9,7 +9,18 @@ TODO: Video
 
 Note: You will need a dev build of the "Castles" video game.
 
-Interested in the project? Join [[https://discord.gg/xZp8p3qgwD][the discord]].
+** Bootstrap
+
+Use this code to setup your mods folder to track changes.
+
+#+begin_src sh :tangle bootstrap.sh
+git init
+git remote add origin https://github.com/asamwow/CastlesMods.git
+git fetch
+git reset --soft origin/main
+git add .
+git status
+#+end_src
 
 * The Files
 
@@ -42,3 +53,8 @@ elements of the collections.
 |     22 |                 |
 |     23 | Teleports       |
 |     24 | Item Givers     |
+|     25 | Sounds          |
+
+* Learn More
+
+Interested in the project? Join [[https://discord.gg/xZp8p3qgwD][the discord]].
