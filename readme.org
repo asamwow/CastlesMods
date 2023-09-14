@@ -24,8 +24,7 @@ git status
 
 * The Files
 
-The mod files use the following format. There is no delimitation between
-elements of the collections.
+The mod files use the following format.
 
 | Line # | Name            |
 |--------+-----------------|
@@ -54,6 +53,7 @@ elements of the collections.
 |     23 | Teleports       |
 |     24 | Item Givers     |
 |     25 | Sounds          |
+|     26 | Cylinders       |
 
 * Learn More
 
